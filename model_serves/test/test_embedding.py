@@ -19,7 +19,7 @@ if __name__=="__main__":
   
     from diskcache import Cache
     
-    cache = Cache("./cache")
+    cache = Cache("./caches")
     embedding_model = EmbeddingModel(client_manager, cache)
     
     async def main():

@@ -18,7 +18,7 @@ if __name__=="__main__":
   
     from diskcache import Cache
     
-    cache = Cache("./cache")
+    cache = Cache("./caches")
     
     chat_model = ChatModel(client_manager, cache)
     async def main():

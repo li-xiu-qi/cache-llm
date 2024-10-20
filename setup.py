@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cache-llm",
-    version="0.1.1",
+    version="0.1.1.1",
     author="li-xiu-qi",
     author_email="lixiuqixiaoke@qq.com",
     description="A simple cache for LLM",

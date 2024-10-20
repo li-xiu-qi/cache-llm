@@ -4,9 +4,9 @@ from typing import TypeVar, AsyncGenerator, Literal
 from openai import AsyncClient
 from pydantic import BaseModel
 
-from model_serves.cache_manager import llm_cached_call
-from model_serves.rag_model import RAGModel
-from model_serves.types import LLMInput, LLMOutput, Message
+from cache_llm.cache_manager import llm_cached_call
+from cache_llm.rag_model import RAGModel
+from cache_llm.types import LLMInput, LLMOutput, Message
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)

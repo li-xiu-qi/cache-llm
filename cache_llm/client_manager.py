@@ -3,7 +3,7 @@ from typing import List, Dict, Union
 
 from openai import AsyncOpenAI
 
-from model_serves.rate_limiter import RateLimiter
+from cache_llm.rate_limiter import RateLimiter
 
 
 class ClientManager:

@@ -1,13 +1,13 @@
-from model_serves.config.app_config import ModelConfig
-from model_serves.config import rag_config
-from model_serves.embedding_model import EmbeddingModel
-from model_serves.types import EmbeddingInput
+from cache_llm.config.app_config import ModelConfig
+from cache_llm.config import rag_config
+from cache_llm.embedding_model import EmbeddingModel
+from cache_llm.types import EmbeddingInput
 config = ModelConfig(
     embedding_model_name="BAAI/bge-m3",
     llm_api_configs=rag_config.guiji_api_configs,
     )
-from model_serves.chat_model import ChatModel
-from model_serves.client_manager import ClientManager
+from cache_llm.chat_model import ChatModel
+from cache_llm.client_manager import ClientManager
 
 
 

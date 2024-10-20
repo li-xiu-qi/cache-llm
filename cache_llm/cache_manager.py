@@ -3,8 +3,8 @@ import json
 import logging
 from functools import wraps
 
-from model_serves.utils.create_cache_key import create_hash_key, acreate_hash_key
-from model_serves.types import LLMOutput, EmbeddingOutput
+from cache_llm.utils.create_cache_key import create_hash_key, acreate_hash_key
+from cache_llm.types import LLMOutput, EmbeddingOutput
 
 logger = logging.getLogger(__name__)
 

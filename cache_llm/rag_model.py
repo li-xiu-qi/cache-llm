@@ -6,7 +6,7 @@ from diskcache import Cache
 from openai import RateLimitError, APIConnectionError, APITimeoutError
 from pydantic import BaseModel
 
-from model_serves.client_manager import ClientManager
+from cache_llm.client_manager import ClientManager
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)

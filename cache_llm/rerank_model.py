@@ -1,5 +1,5 @@
 import aiohttp
-from model_serves.rag_model import RAGModel
+from cache_llm.rag_model import RAGModel
 
 
 class RerankModel(RAGModel):
